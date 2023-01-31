@@ -1,0 +1,148 @@
+1) What is JavaScript ?
+ -> JavaScript is an interpreted, client-side, event-based, object-oriented scripting language.
+ -> JavaScript Developed for 1995 at Netscape Corporation (LiveScript).
+ -> JavaScript Programs are run by an interpreter built into the user's web browser
+ -> It is a case-sensitive language
+ -> JavaScript is not Java
+
+2) What can do JavaScript
+    1. JavaScript can dynamically modify an HTML page
+    2. JavaScript can validate user input JavaScript can validate user input
+    3. JavaScript can validate user input
+    4. JavaScript can be used to crate cookies
+    5. JavaScript is a full-featured programming language
+    6. JavaScript user interaction does not require any communication with the server
+
+3) JavaScript Framework and Libraries
+    1. Angular
+    2. React
+    3. Vue.js
+    4. Node.js
+
+4) Types of JavaScript
+    1. Internel JavaScript
+        A. JavaScript can be inserted into documents by using the SCRIPT tag.
+        B. The SCRIPT tag provides a block to write the JavaScript programs.
+        Examples:- 
+            <script type="text/javascript">
+                // JS code goes here
+            </script>
+
+    2. External JavaScript
+        A. To use the pre-defined programs of any JavaScript Libraries
+        Examples:-
+            <script src="myscript.js"></script>
+
+5) Important Function of JavaScript
+    1. alert()
+        It is used to alert the user that something has happened.
+        Examples :- 
+            <script type="text/javascript">
+                alert("Hello Students..."); 
+            </script>
+
+    2. confirm()
+        Opens up a Confirm/Cancel dialog and returns true/false depending on user's click.
+        Examples :- 
+            <script type="text/javascript">
+                confirm("Login to WebSite.."); 
+            </script>
+
+    3. console.log()
+        Writes information to the browser console, good for debugging purpose
+        Examples :-
+            <script type="text/javascript">
+                console.log("JavaScript Tutorials..");
+            </script>
+
+    4. document.write()
+        Write directly to the HTML document
+        Examples :-
+            <script type="text/javascript">
+                document.write("Simple Page..");
+            </script>
+
+    5. prompt(msg.default)
+        Creates an dialogue for user input
+        Examples :-
+            <script type="text/javascript">
+                prompt("Hello","Students");
+            </script>
+
+6) What is variable?
+ -> Variable are containers which hold reusable data.
+ -> It is the basic unit of storage in a program.
+ -> The value stored in a variable can be changed during program execution.
+
+7) Scope and Life time of a variable
+    1. Scope of a Variable :-
+        -> variables declared within a function are local to that function.
+        -> Variables declared outside of any function are global variable.
+
+    2. Life Time of Variable :-
+        -> Local variable's life time is within the block of its declaration.
+        -> Global variable's life time is throughout the program.
+
+8) Javascript DOM Function
+    1. document.getElementById()
+    2. document.getElementByClassName()
+    3. innerHTML()
+
+9) What is an Operator And Types of Operators in JS
+    1) What is an Operator?
+        -> An operator is a symbol that tell the compiler which arithmetic or logical operation to be performed between the respective operands.
+    
+    2) Types of Operators
+        1. Arithmetic Operator
+            a. (+) Addition         ->   Adds Two Numbers
+            b. (-) Subtraction      ->   Subtracts the second operand from the first
+            c. (*) Multiplication   ->   Multiply both operands
+            d. (/) Division         ->   Divide the numerator by the denominator
+            e. (%) Modules          ->   Output the remainder of an integer division
+            f. (++) Increment       ->   Increases an integer value by one
+            g. (--) Decrement       ->   Decreases an integer value by one
+            
+        2. Logical Operator
+            a. (&&) Logical And
+            b. (||) Logical OR
+
+        3. Ternary Operator
+            <condition> ? <true> : <false> -> Ex:- 2>1 ? "Yes" : "No"
+                                    -> if 2 is greater than 1, yes will be printed else no will be printed
+                                    
+        4. Assignment Operator
+            a. (=) Simple Assignment
+            b. (+=) Add and Assignment
+            c. (-=) Subtract and Assignment
+            d. (*=) Multiply and Assignment
+            e. (/=) Division and Assignment
+            f. (%=) Modules and Assignment
+
+        5. Comparison Operator
+            a. (==) Equal
+            b. (!=) Not Equal
+            c. (>) Greater than
+            d. (<) Less than
+            e. (>=) Greater than or Equal to
+            f. (<=) Less than or Equal to
+
+10) Function in JavaScript
+ -> Function are group of code or program which is used more often.
+ -> It leads programming to code reusability and clean code.
+
+ => Types of Function
+    1. pre defined  ->  Such function are defined at the time of making of any language.
+    2. user defined -> Such function defined by users according to their needs.
+
+    -> Name: Just like a variable where we call "var" and give that a name, to create a function, we call "function" and give it a name in the same way
+
+    Syntax :- function <functionName>(){
+        // Function Body
+    }
+
+    -> Arguments: These are the inputs that the function will manipulate-separate multiple inputs with commas.
+
+    Syntax :- function <functionName>(a,b){
+        // Function Body
+    }
+

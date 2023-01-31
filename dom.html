@@ -1,0 +1,29 @@
+<!-- PUT and GET data from the HTML element -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>DOM</title>
+</head>
+<body>
+    <!-- <div id="main">
+        Welcome To JavaScript Course..
+    </div> -->
+    <h1>1</h1>
+    <div class="abc">
+        Welcome to Java Course
+    </div>
+
+    <h1>2</h1>
+    <div class="abc">
+        Java Course
+    </div>
+</body>
+<script type="text/javascript">
+    //var x= document.getElementById("main").innerHTML = "<h1>Welcome To JavaScript Course</h1>";
+    //console.log(x);
+
+    document.getElementsByClassName("abc")[0].innerHTML = "Hello Everyone";
+    document.getElementsByClassName("abc")[1].innerHTML = "Java Course..";
+    //alert(x);
+</script>
+</html>
