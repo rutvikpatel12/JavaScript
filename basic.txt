@@ -1,11 +1,11 @@
-1) What is JavaScript ?
+Q.) What is JavaScript ?
  -> JavaScript is an interpreted, client-side, event-based, object-oriented scripting language.
  -> JavaScript Developed for 1995 at Netscape Corporation (LiveScript).
  -> JavaScript Programs are run by an interpreter built into the user's web browser
  -> It is a case-sensitive language
  -> JavaScript is not Java
 
-2) What can do JavaScript
+Q.) What can do JavaScript
     1. JavaScript can dynamically modify an HTML page
     2. JavaScript can validate user input JavaScript can validate user input
     3. JavaScript can validate user input
@@ -13,13 +13,13 @@
     5. JavaScript is a full-featured programming language
     6. JavaScript user interaction does not require any communication with the server
 
-3) JavaScript Framework and Libraries
+Q.) JavaScript Framework and Libraries
     1. Angular
     2. React
     3. Vue.js
     4. Node.js
 
-4) Types of JavaScript
+Q.) Types of JavaScript
     1. Internel JavaScript
         A. JavaScript can be inserted into documents by using the SCRIPT tag.
         B. The SCRIPT tag provides a block to write the JavaScript programs.
@@ -33,7 +33,7 @@
         Examples:-
             <script src="myscript.js"></script>
 
-5) Important Function of JavaScript
+Q.) Important Function of JavaScript
     1. alert()
         It is used to alert the user that something has happened.
         Examples :- 
@@ -69,12 +69,12 @@
                 prompt("Hello","Students");
             </script>
 
-6) What is variable?
+Q.) What is variable?
  -> Variable are containers which hold reusable data.
  -> It is the basic unit of storage in a program.
  -> The value stored in a variable can be changed during program execution.
 
-7) Scope and Life time of a variable
+Q.) Scope and Life time of a variable
     1. Scope of a Variable :-
         -> variables declared within a function are local to that function.
         -> Variables declared outside of any function are global variable.
@@ -83,12 +83,12 @@
         -> Local variable's life time is within the block of its declaration.
         -> Global variable's life time is throughout the program.
 
-8) Javascript DOM Function
+Q.) Javascript DOM Function
     1. document.getElementById()
     2. document.getElementByClassName()
     3. innerHTML()
 
-9) What is an Operator And Types of Operators in JS
+Q.) What is an Operator And Types of Operators in JS
     1) What is an Operator?
         -> An operator is a symbol that tell the compiler which arithmetic or logical operation to be performed between the respective operands.
     
@@ -126,7 +126,7 @@
             e. (>=) Greater than or Equal to
             f. (<=) Less than or Equal to
 
-10) Function in JavaScript
+Q.) Function in JavaScript
  -> Function are group of code or program which is used more often.
  -> It leads programming to code reusability and clean code.
 
@@ -146,3 +146,174 @@
         // Function Body
     }
 
+Q.) Coditional Statements for JavaScript
+ -> conditional Statements (control statements) used to change the flow of the program's execution.
+ -> Two Possible cases, either true or false.
+
+    => Types of conditional Statements in javascript
+    1. If
+        - If provide true, performs a function or displays informarion.
+        -> Syntax:-
+            if (condition){
+                // block of code to be executed
+                // if the condition is true
+            }
+
+    2. If-else
+        - If provide true, performs a task.
+        - If false performs any one task.
+        -> Syntax:-
+            if (condition){
+                // block of code to be executed
+                // if the condition is true
+            }
+            else{
+                // block of code to be executed
+                // if the condition is false
+            }
+
+    3. If-elseif
+        - If proved true, performs a task.
+        - If false checks another if condition.
+        -> Syntax:-
+            if (condition1){
+                // block of code to be executed
+                // if the condition is true
+            }
+            else if(condition2){
+                // block of code to be executed if
+                // the condition is false and condition2 is true
+            }
+            else{
+                // block of code to be executed if
+                // the condition is false and condition2 is false
+            }
+
+Q.) Array in JavaScript
+ -> Array is a group of continuous memory location.
+ -> It is used to store multiple value into a Single variable.
+ 
+ => Declaration of Array in JS
+ Method-1)
+    var house=[];
+
+    // initializing while declaring
+    var house=["1BHK","2BHK","3BHK","4BHK"];
+    // initializing after declaring
+    house[0]="1BHK";
+    house[1]="2BHK";
+    house[2]="3BHK";
+    house[3]="4BHK";
+    
+ Method-2)
+    var house=new array()
+
+    // Create an array having elements - 10,20,30,40,50
+    var house=new Array(10,20,30,40,50);
+    // Storing Number, string in array
+    var house=["1BHK",32500,"2BHK",45000,"Sales"];
+
+Q.) What is Loop ?
+ -> A loop is used to repeat a block of code until the specifed condition is Method
+ -> When similar task is needed to be done again and again.
+ -> Save time and leads to code reusability.
+    1. ForLoop
+        Syntax:-
+            for(initialization;test condition;+ement/-ement)
+            {
+                // Statement(s) to be executed if test condition is true
+            }
+        
+        Examples:-
+            for (var count=0;count<10;count++)
+            {
+                document.write(count+"Welcome JavaScript <br>");
+            }
+
+    2. While Loop
+        -> A While loop is to execute a statement or code block repeatedly as long as Condition is true.
+        -> Once the Condition becomes false, the loop terminates.
+        -> It is also called entry control loop.
+
+        => Syntax:-
+            while (expression)
+            {
+                // Statemet(s) to be executed if expression is true
+            }
+
+        => Examples:-
+            
+            var count=0;
+            while(count>10)
+            {
+                document.write(count+"<br>");
+                count++;
+            }
+
+    3. ForEach loop
+        -> A ForEach loop (method) is used to get data from JS array or object.
+        -> The method calls a function once for each element in an array, in order.
+
+        => Syntax And Examples
+
+            var cars=["Car1","Car2","Car3"];        -> item - (here "Car1") required parameter
+            cars.ForEach(myfunction);               -> index - (here 0 for "Car1") optional
+                                                    -> array - (here cars) optional
+            function myfunction(item,index,array){
+                // body of the function
+            }
+
+Q.) Continue Statement ?
+ -> The continue statement is used to skip the current iteration and go to next iteration.
+
+    -> Syntax :-
+        continue;    --> It is also a keyword.
+
+Q.) Break Statement ?
+ -> The Break statement is used to break the execution of current loop or switch case.
+ -> As soon as it is encountered the flow of the program goes to next statement of loop or switch case.
+
+    => Syntax :-
+        break;      --> It is also a keyword.
+
+Q.) What is Switch Statement ?
+ -> Switch statement is used to choose in between many cases.
+ -> It works same as nested if-elseif-else statement.
+
+=> Syntax:-
+    
+    switch(x)
+    {
+        case 'value1':
+            statement1;
+            [break]
+        case 'value2':
+            statement2;
+            [break]
+        case 'value3':
+            statement3;
+            [break]
+        default:
+            statementDefault;
+            [break]
+    }
+
+=> Examples :-
+    <script type="text/javascript">
+        let i=1;
+        switch(i)
+        {
+            case 0:
+                document.write("i is equal to Zero.");
+                break;
+            case 1:
+                document.write("i is equal to One.");
+                break;
+            case 2:
+                document.write("i is equal to Two.");
+                break;
+            default:
+                document.write("i is Greater Than Two.");
+        }
+        document.write("out Of Switch.");
+    </script>
