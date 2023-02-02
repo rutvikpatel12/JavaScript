@@ -317,3 +317,33 @@ Q.) What is Switch Statement ?
         }
         document.write("out Of Switch.");
     </script>
+
+Q.) List of Methods
+    1. valueOf()    ->  To print the data for array
+    2. isArray()    ->  Check if the variable is an array or not ?
+    3. concat()     ->  Join several array into one
+    4. indexOf()    ->  Returns the primitive value of the specified object
+    5. join()       ->  Combine elements of an array into a single string and return the string
+
+    6. pop()        ->  Removes the last element of an array
+    7. push()       ->  Add a new element at the end
+    8. reverse()    ->  Sort elements in descending order
+    9. shift()      ->  Remove the first element of an array
+   10. slice()      ->  Pulls a copy of a portion of an array into a new array
+
+Q.) Date Methods in JavaScript
+    1. Date()           ->  To get the current date and time details according to the brower.
+    2. getFullYear()    ->  Get the YEAR as a four digit number (yyyy).
+    3. getMonth()       ->  Get the MONTH as a number (0-11).
+    4. getDate()        ->  Get the DAY as a number (0-31).
+    5. getHours()       ->  Get the HOUR (0-23).
+    6. getMinutes()     ->  Get the MINUTE (0-59).
+    7. getSeconds()     ->  Get the SECOND (0-59).
+    8. getMilliseconds()->  Get the MILLISECONDS (0-999).
+    9. getTime()        ->  Get the time (milliseconds since January 1,1970).
+   10. getDay()         ->  Get the Weekday as a number (0-6).
+
+Q.) Events in JavaScript ?
+ -> In Programming, event is an occurrence of any action.
+ -> When we use javascript in HTML pages, JavaScript can "react" with events.
+ -> Eg. When user click the mouse button, or press any key on the keyboard.
