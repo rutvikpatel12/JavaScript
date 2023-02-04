@@ -347,3 +347,52 @@ Q.) Events in JavaScript ?
  -> In Programming, event is an occurrence of any action.
  -> When we use javascript in HTML pages, JavaScript can "react" with events.
  -> Eg. When user click the mouse button, or press any key on the keyboard.
+
+Q.) List of Mouse event in JS
+    1. onclick()        ->  The Event occurs when the user clicks on an element
+    2. oncontentmenu()  ->  User right-clicks on an element to open a context menu
+    3. ondblclick()     ->  The user double-clicks on an element
+    4. onmousedown()    ->  User presses a mouse button over an element
+    5. onmouseenter()   ->  The pointer moves onto an element
+    6. onmouseleave()   ->  Pointer moves out of an element
+    7. onmousemove()    ->  The pointer is moving while it is over an element
+    8. onmouseover()    ->  When the pointer is moved onto an element or one of its children
+    9. onmouseout()     ->  User moves the mouse pointer out of an element or one of its children
+   10. onmouseup()      ->  The user releases a mouse button while over an element
+
+Q.) List of keyboard event in JS
+    1. onkeydown()      ->  When the user is pressing a key down
+    2. onkeypress()     ->  The moment the user starts pressing a key
+    3. onkeyup()        ->  The user releases a key
+
+Q.) List of Form Event in JS
+    1. onblur       ->  When an element loses focus
+    2. onchange     ->  The content of a form element changes
+                            (for <input>, <select>and <textarea>)
+    3. onfocus      ->  An element gets focus
+    4. oninput      ->  User input on an element
+    5. oninvalid    ->  An element is invalid
+    6. onreset      ->  A form is reset
+    7. onsearch     ->  The user writes something in a search
+                            (for <input="search">)
+    8. onselect     ->  The user selects some text
+                            (for <input> and <textarea>)
+    9. onsubmit     ->  A form is submitted
+   10. onload       ->  When document is fully loded
+
+Q.) DOM Two Methods ?
+
+    1. getElementsByName()
+    2. getElementsByTagName()
+
+Q.) setInterval() in JavaScript ?
+ -> The setInterval() method reports a given function at every given time-interval.
+ => Syntax:-    windows.setInterval(function,milliseconds);
+ -> funcion:-   first parameter is the function to be executed
+ -> milliseconds:-  indicates the length of the time-interval between each execution
+
+Q.) setTimeout() in JavaScript ?
+ -> The setTimeout() method executes a funcion, after waiting a specifed number of milliseconds.
+ => Syntax:-    windows.setTimeout(funcion,milliseconds);
+ -> funcion:-   first parameter is the funcion to be executed
+ -> milliseconds:-  indicates the number of milliseconds before execution takes place. 1 sec=1000ms.
