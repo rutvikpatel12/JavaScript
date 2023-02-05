@@ -396,3 +396,45 @@ Q.) setTimeout() in JavaScript ?
  => Syntax:-    windows.setTimeout(funcion,milliseconds);
  -> funcion:-   first parameter is the funcion to be executed
  -> milliseconds:-  indicates the number of milliseconds before execution takes place. 1 sec=1000ms.
+
+Q.) clearTimeout method
+ -> The clearTimeout() method clears a timer set with the setTimeout() method.
+ -> The ID value returned by setTimeout() is used as the parameter for the clearTimeout() method.
+ 
+ => myVar = setTimeout("function",milliseconds);
+ => clearTimeout(myVar);
+
+ Q.) clearInterval method
+ -> The clearInterval() method clears a timer set with the setInterval() method.
+ -> The ID value returned by setInterval() is used as the parameter for the clearInterval() method.
+
+ => myVar=setInterval("funcion",milliseconds);
+ => clearInterval(myVar);
+
+ Q.) What is History Object ?
+ -> The History object contains the URLs visited by the user (Within a browser window).
+ -> The history object is part of the window object and is accessed through the window.history property
+
+ => All the major brower support it.
+
+ Q.) History object methods
+    
+      Methods                Description                               Syntax
+    1. back()      Loads the previous URL in the history list      window.history.back()
+    2. forward()   Loads the next URL in the history list          window.history.forward()
+    3. go()        Loads a specific URL from the history list      window.history.go()
+
+Q.) Window Screen object ?
+ -> The Screen object contains information about the visitor's screen.
+
+  Property                      Description                                     Syntax
+1. availHeight      Returns the height of the screen (execuding the         screen.availHeight
+                    Window Taskbar)
+2. availWidth       Returns the width of the screen (execuding the          screen.availWidth
+                    Window Taskbar)
+3. colorDepth       Returns the bit depth of the color palette for          screen.colorDepth
+                    displaying images
+4. height           Returns the total height of the screen                  screen.height
+5. pixelDepth       Returns the color resolution(in bits per pixel)         screen.pixelDepth
+                    of the screen
+6. width            Returns the total width of the screen                   screen.width

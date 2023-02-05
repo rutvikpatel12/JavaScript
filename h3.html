@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title></title>
+</head>
+
+<body>
+    <h1></h1>
+    <h2>Third</h2>
+    <button onclick="window.history.back();">Previus</button>
+    <button onclick="window.history.go(-1);">Go</button>
+    <!-- 
+       -1 - Previus
+        0 - First
+        1 - Second
+        2 - Third
+     -->
+</body>
+<script type="text/javascript">
+    var c = window.history.length;
+    document.getElementsByTagName('h1')[0].innerText = c;
+</script>
+
+</html>

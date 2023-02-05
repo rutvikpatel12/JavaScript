@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modify CSS</title>
+    <style type="text/css">
+        #main{
+            color: red;
+            font-size: 50px;
+            text-align: center;
+            margin-top: 50px;
+            cursor: pointer;
+            transition: 2s;
+        }
+    </style>
+</head>
+<body>
+    <div id="main" onclick="modify()" onmouseleave="unmodify()">
+        Learn To javascript..
+    </div>
+</body>
+<script type="text/javascript">
+    function modify(){
+        document.getElementById('main').style.fontSize="100px";
+        document.getElementById('main').style.color="Green";
+    }
+    function unmodify()
+    {
+        document.getElementById('main').style.fontSize="50px";
+        document.getElementById('main').style.color="Red";
+
+    }
+</script>
+</html>
