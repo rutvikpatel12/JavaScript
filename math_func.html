@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math Function</title>
+</head>
+<body>
+    <button onclick="getOTP()">OTP</button>
+</body>
+<script>
+    
+    //var x=Math.round(3.6);
+    //document.write("<h1>"+x+"</h1>");
+
+    //var a=Math.pow(3,3);    // 3 * 3 =9 * 3 = 27  => A= 27
+    //document.write(a);
+
+    //var b=Math.abs(-15);
+    //document.write(b);
+
+   // var c=Math.ceil(4.9);
+    //document.write(c);
+
+    //var c=Math.floor(5.6);
+    //document.write(c);
+
+    //var d=Math.min(12,58,10);
+    //document.write(d);
+
+    //var m=Math.max(45,58,24);
+    //document.write(m);
+
+    //var r=Math.floor(Math.random()*10000);
+    //document.write(r);
+
+    function getOTP(){
+        var x=Math.random()*10000;
+        alert(x);
+        var opt=Math.floor(x);
+        document.write(opt);
+    }
+</script>
+</html>

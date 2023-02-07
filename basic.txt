@@ -427,14 +427,54 @@ Q.) clearTimeout method
 Q.) Window Screen object ?
  -> The Screen object contains information about the visitor's screen.
 
-  Property                      Description                                     Syntax
-1. availHeight      Returns the height of the screen (execuding the         screen.availHeight
-                    Window Taskbar)
-2. availWidth       Returns the width of the screen (execuding the          screen.availWidth
-                    Window Taskbar)
-3. colorDepth       Returns the bit depth of the color palette for          screen.colorDepth
-                    displaying images
-4. height           Returns the total height of the screen                  screen.height
-5. pixelDepth       Returns the color resolution(in bits per pixel)         screen.pixelDepth
-                    of the screen
-6. width            Returns the total width of the screen                   screen.width
+        Property                      Description                                     Syntax
+        1. availHeight      Returns the height of the screen (execuding the         screen.availHeight
+                            Window Taskbar)
+        2. availWidth       Returns the width of the screen (execuding the          screen.availWidth
+                            Window Taskbar)
+        3. colorDepth       Returns the bit depth of the color palette for          screen.colorDepth
+                            displaying images
+        4. height           Returns the total height of the screen                  screen.height
+        5. pixelDepth       Returns the color resolution(in bits per pixel)         screen.pixelDepth
+                            of the screen
+        6. width            Returns the total width of the screen                   screen.width
+
+Q.) What is Math object ?
+ -> The math object contains some predefined mathematical methods
+ -> These methods are used to perform mathematical calculation on numerical values
+ -> To access these methods (Math.) keyword is used
+
+ => Methods for Math objects
+        Methods                 Description
+    1. Math.PI          Return the value of PI (3.141592653589793)
+    2. Math.round(x)    Return the rounded value of x to its nearest integer
+    3. Math.pow(x,y)    Return the value of x to the power y
+    4. Math.sqrt(x)     Return the square root of x
+    5. Math.abs(-x)     Return the positive value of x
+    6. Math.ceil(x)     Returns the value of x rounded -up- to its nearest integer
+    7. Math.floor(x)    Returns the value of x rounded -down- to its nearest integer
+    8. Math.mix(x,y,z)  Return the minimum value among x,y and z
+    9. Math.max(x,y,z)  Return the maximum value among x,y and z
+   10. Math.random      Return random decimal value in between 0 and 1
+
+Q.) What is this keyword ?
+ -> this keyword in javaScript is used to refer the object it belongs to.
+ -> In a method, this refers to the owner object.
+ -> Alone, this refers to the global object.
+ -> In a function, this refers to the global object.
+ -> In a function, in strict mode, this is undefined.
+ -> In an event, this refers to the element that received the event.
+
+Q.) Event Listenet in JavaScript
+ -> Event Listener is used to perform any task on an event of any element
+ -> Using event listener one can add and remove task on the occurrence of any event for an element.
+ -> It is a part of JS DOM
+
+    => Types of EventListener
+        1. addEventListener method in JavaScript
+            ->  The addEventListener() method attaches an event handler to the specified element.
+            ->  The addEventListener() method attaches an event handler to an element without overWriting existing event handler.
+            ->  One can add many existing event handlers.
+            ->  SYNTAX:-    element.addEventListener(event,funcion);
+
+Q.) windows.print() in javaScript ?
