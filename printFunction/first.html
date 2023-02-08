@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Window - Print Function</title>
+</head>
+
+<body id="body">
+    <center>
+        <div>
+            <img src="pexels-chevanon-photography-1108099.jpg" width="500px">
+        </div>
+        <p id="data">
+            Q.) What is this keyword ?
+            -> this keyword in javaScript is used to refer the object it belongs to.
+            -> In a method, this refers to the owner object.
+            -> Alone, this refers to the global object.
+            -> In a function, this refers to the global object.
+            -> In a function, in strict mode, this is undefined.
+            -> In an event, this refers to the element that received the event.
+        </p>
+        <button onclick="printpage()">Print Content</button>
+    </center>
+</body>
+<script type="text/javascript">
+    function printpage() {
+        var body = document.getElementById('body').innerHTML;
+        var data = document.getElementById('data').innerHTML;
+        document.getElementById('body').innerHTML = data;
+        window.print();
+        document.getElementById('body').innerHTML=body;
+
+    }
+</script>
+
+</html>

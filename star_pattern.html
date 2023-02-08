@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Star Pattern</title>
+</head>
+
+<body>
+
+</body>
+<script>
+    var rows = prompt("Enter Number of Rows", "");
+    pattern(rows);
+
+    // Declare and Define
+    function pattern(row) {
+        for (var r = 1; r <= rows; r++) {
+            for (var c = 1; c <= r; c++) {
+                document.write("*");
+            }
+            document.write("<br>");
+        }
+        for (var r=rows-1;r>=1;r--){
+            for(var c=1;c<=r;c++){
+                document.write("*");
+            }
+            document.write("<br>");
+        }
+    }
+</script>
+
+</html>

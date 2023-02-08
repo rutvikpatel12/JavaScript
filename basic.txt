@@ -477,4 +477,4 @@ Q.) Event Listenet in JavaScript
             ->  One can add many existing event handlers.
             ->  SYNTAX:-    element.addEventListener(event,funcion);
 
-Q.) windows.print() in javaScript ?
+Q.) 
