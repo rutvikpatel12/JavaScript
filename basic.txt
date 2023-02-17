@@ -528,3 +528,21 @@ Q.) JavaScript try...Catch...finally Statement
                 finally{
                     //  Block of code to be executed regardless of the try / catch result
                 }
+
+Q.) RegExp(Regular Expression)
+ -> A regular expression is an object that describes a pattern of characters.
+ -> Regular expreesions are used to perform pattern-matching and "search-and-replace" function on text.
+
+ => SYNTAX :-
+            / pattern/ modifiers;
+            OR
+            new RegExp(pattern,modifier);
+
+ => Examples :- 
+            var pattern = /abcdef/i
+            OR
+            var pattern = new RegExp('abcdef','i')
+
+ -> exec()      -   Tests for a match in a string. Returns the first match
+ -> test()      -   Tests for a match in a string. Returns true or false
+ -> toString()  -   Returns the string value of the regular expression
